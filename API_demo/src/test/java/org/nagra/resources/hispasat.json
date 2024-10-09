@@ -1,0 +1,39 @@
+{
+    "deviceInformation": {
+        "device": {
+            "CPU": {
+                "cores": 8,
+                "frequency": 2.21,
+                "neon": false
+            },
+            "GPU": {
+                "cores": null,
+                "frequency": null
+            },
+            "OS": {
+                "type": "Android",
+                "version": "13"
+            },
+            "hardware": {
+                "manufacturer": "samsung",
+                "model": "SM-G998B",
+                "type": "Mobile"
+            },
+            "screen": {
+                "density": 450,
+                "height": 2400,
+                "width": 1080
+            }
+        },
+        "securePlayer": {
+            "DRMs": [],
+            "codecs": [
+                "hevc",
+                "avc"
+            ],
+            "streamings": []
+        }
+    },
+    "password": "123",
+    "username": "HV1"
+}

@@ -1,0 +1,11 @@
+{
+	"firstName": "Rodrigo",
+	"Address" : {
+	 "Type":"Primary Address",
+	 "Sector":"14",
+	 "houseNo":"398"
+	},
+	"id":"69",
+	"designation": "STL",
+	"lastName": "Bermudez"
+}

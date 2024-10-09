@@ -1,0 +1,14 @@
+{
+	"firstName":"Daniel",
+	"lastName":"Bermudez",
+	"id":"41603785",
+	"designation":"Law",
+	"address":[
+	 {"houseNo":"399",
+	  "warNo":"15",
+	  "type":"Primary"},
+	 {"houseNo":"499",
+	  "warNo":"16",
+	  "type":"Secondary"}
+	 ]
+}
