@@ -2,6 +2,8 @@ package org.nagra.trigger;
 
 import java.io.IOException;
 
+import org.nagra.testScripts.APIRequest;
+//import org.nagra.testScripts.get_services;
 import org.nagra.testScripts.retrieve_token;
 
 
@@ -13,15 +15,16 @@ public class trigger {
 //		TC1_PostRequest tc1 = new TC1_PostRequest();
 //		tc1.testCase1();
 		
-		System.out.println("#################################################");
-		System.out.println("TC1_PostRequest_randomNum");
-		retrieve_token tc1 = new retrieve_token();
-		tc1.token();
+//		System.out.println("#################################################");
+//		System.out.println("TC1_PostRequest_randomNum");
+//		retrieve_token tc1 = new retrieve_token();
+//		tc1.token_netlife();
+//		tc1.token_entel();
 //		
 //		System.out.println("#################################################");
 //		System.out.println("TC2_GetAllRequest");
-//		TC2_GetAllRequest tc2 = new TC2_GetAllRequest();
-//		tc2.testCase2();
+//		APIRequest tc2 = new APIRequest();
+//		tc2();
 //		
 //		System.out.println("#################################################");
 //		System.out.println("TC3_GetParticularRequest");

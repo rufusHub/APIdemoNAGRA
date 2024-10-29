@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <groups>
+    	<run>
+    		<include name = "smoke_test">
+    		</include>
+    	</run>
+    </groups>
+    <classes>
+      <class name="org.nagra.testScripts.retrieve_token"/>
+      <class name="org.nagra.testScripts.get_user_capabilities"/>
+      <class name="org.nagra.testScripts.get_services"/>
+      <class name="org.nagra.testScripts.get_programes"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

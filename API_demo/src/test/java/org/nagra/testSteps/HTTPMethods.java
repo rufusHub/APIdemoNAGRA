@@ -2,10 +2,10 @@ package org.nagra.testSteps;
 
 import static io.restassured.RestAssured.*;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
+import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
@@ -19,16 +19,13 @@ public class HTTPMethods {
 	
 	public Response postMethod(String jsonBody, String uriKeyName, Map<String, String> headers) {
 		
-//		HashMap<String, String> hm = new HashMap<String, String>();
-//		hm.put("first", "value1");
-		
-		
 		String uriValue = pr.getProperty(uriKeyName);
 		Response res =
 		given()
 //		.contentType(ContentType.JSON)
 		.headers(headers)
 		.body(jsonBody)
+		.log().all()
 		.when()
 		.post(uriValue);
 		
@@ -37,19 +34,37 @@ public class HTTPMethods {
 		return res;
 	}
 	
-	public Response getAlltMethod(String uriKeyName) {
+	public Response getAlltMethod(String uriKeyName, Map<String, String> headers) {
 		String uriValue = pr.getProperty(uriKeyName);
 		Response res =
 		given()
-		.contentType(ContentType.JSON)
+		.headers(headers)
+		.log().all()
 		.when()
 		.get(uriValue);
 		
-		System.out.println("'getAlltMethod'Status code is " + res.statusCode());
-		System.out.println("Response data is: ");
-		System.out.println(res.asString());
+		System.out.println("Status code: " + res.getStatusCode());
+        System.out.println("Response body: " + res.getBody().asString());
 		return res;
 	}
+
+	
+	public Response getFilteredMethos(String uriKeyName, Map<String, String> headers, Map<String, String> params) {
+		String uriValue = pr.getProperty(uriKeyName);
+		Response res =
+		given()
+		.headers(headers)
+		.queryParams(params)
+		.log().all()
+		.when()
+		.get(uriValue);
+		
+		System.out.println("Status code: " + res.getStatusCode());
+        System.out.println("Response body: " + res.getBody().asString());
+		return res;
+		
+	}
+	
 	
 	public Response getParticulartMethod(String uriKeyName, String endPointValue) {
 		String uriValue = pr.getProperty(uriKeyName) + "/" + endPointValue;

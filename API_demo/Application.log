@@ -1,5 +1,14 @@
-2024-10-03 19:08:20  [retrieve_token] (main:) status code is NOT matching
-2024-10-03 19:13:20  [retrieve_token] (main:) status code is NOT matching
-2024-10-03 19:14:57  [retrieve_token] (main:) status code is matching
-2024-10-03 19:15:32  [retrieve_token] (main:) status code is matching
-2024-10-03 19:21:12  [retrieve_token] (main:) status code is matching
+2024-10-22 11:57:37  [token_entel] (main:) status code is matching
+2024-10-22 12:04:34  [token_entel] (main:) status code is matching
+2024-10-22 12:04:35  [services_entel] (main:) status code is matching
+2024-10-22 12:04:36  [services_entel] (main:) Data is matching
+2024-10-22 12:04:36  [capabilities_entel] (main:) status code is matching
+2024-10-22 12:04:36  [capabilities_entel] (main:) Data is matching
+2024-10-22 12:04:42  [programes_entel] (main:) status code is matching
+2024-10-22 12:04:43  [programes_entel] (main:) Data is matching
+2024-10-22 12:15:50  [token_entel] (main:) status code is matching
+2024-10-22 12:15:52  [services_entel] (main:) status code is matching
+2024-10-22 12:15:54  [services_entel] (main:) Data is matching
+2024-10-29 10:29:48  [token_entel] (main:) status code is matching
+2024-10-29 10:29:49  [services_entel] (main:) status code is matching
+2024-10-29 10:29:51  [services_entel] (main:) Data is matching
