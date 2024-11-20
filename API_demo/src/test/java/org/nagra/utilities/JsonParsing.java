@@ -12,7 +12,14 @@ public class JsonParsing {
 
     // Method with specified index value
     public static String doParsing(Response res, String jsonPath, int index) {
-        Object responseValue = res.jsonPath().get(jsonPath);
+        
+        	
+    	Object responseValue = res.jsonPath().get(jsonPath);
+        
+        if (responseValue == null) {
+        	String msj = res.jsonPath().getString("error.message");	//{"error":{"code":"200-002","message":"Resource Not Found"}}
+        	return msj;	//"Resource Not Found"
+        }
 
         if (responseValue instanceof List) {
             // If the response value is a list, get the element at the specified index
@@ -33,29 +40,3 @@ public class JsonParsing {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-//	package org.nagra.utilities;
-	
-//	import io.restassured.response.Response;
-	
-	// input parameter --- Response object and the jsonPath
-	// purpose ? --it will extract from response based upon the jsonPath 
-	// output ---- it will return the value after extraction.
-//	public class JsonParsing {
-	
-//		public static String  doParsing(Response res, String jsonPath) {
-			
-//			String responseValue = res.jsonPath().get(jsonPath);
-//			return responseValue;
-//		}
-//	}

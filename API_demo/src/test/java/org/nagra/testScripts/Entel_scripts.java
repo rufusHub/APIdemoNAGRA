@@ -6,20 +6,34 @@ import java.util.Map;
 import java.util.Properties;
 
 import org.nagra.utilities.PropertiesHandle;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.Test;
+
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+
 import io.restassured.response.Response;
 
+import org.nagra.reporting.ReportHandling;
 import org.nagra.testSteps.HTTPMethods;
 import org.nagra.utilities.JsonHandle;
 
 
 
 public class Entel_scripts {
+	
+	ExtentReports report = ReportHandling.handleReport();
+	ExtentTest te_report;
 
-	@Test(description = "Post testing", priority = 1, groups = {"smoke_test", "full_test", "myTest"})
-
+	@Test(priority = 1)
 	public void token_entel() throws IOException {
 		
+		//REPORT
+		String test_name = "token_entel";
+		te_report = report.startTest(test_name);
 		
 		//VALUES
 		String props = "../API_demo/URI.properties";
@@ -43,16 +57,20 @@ public class Entel_scripts {
         Response response = http.postMethod(requestBody, urikeyname, headers);
         
         
-		//REPORT
-		String test_name = "token_entel";
+        //VALIDATION.
 		validation val = new validation();
-		val.post_validation(test_name, prop, urikeyname, headers, requestBody, expectedCode, response);
+		val.post_validation(te_report, test_name, prop, urikeyname, headers, requestBody, expectedCode, response);
 	}
 	
 	
 	
-	@Test(priority = 2, groups = {"full_test"})
+	@Test(priority = 2)
 	public void services_entel() throws IOException {
+		
+		//REPORT
+		String test_name = "services_entel";
+		te_report = report.startTest(test_name);
+		
 		
 		//VALUES
 		String props = "../API_demo/URI.properties";
@@ -82,18 +100,23 @@ public class Entel_scripts {
         //API CALL
         HTTPMethods http = new HTTPMethods(prop);
         Response response = http.getFilteredMethos(urikeyname, headers, params);
+       
         
-		//REPORT
-		String test_name = "services_entel";
-		validation val = new validation();
-		String res = val.get_validation(test_name, expectedData, prop, response, urikeyname, expectedCode, jsonPathToValidate, headers, params);    
+        //VALIDATION
+		validation val = new validation(); 
+		String res = val.get_validation(te_report, test_name, expectedData, prop, response, urikeyname, expectedCode, jsonPathToValidate, headers, params);
 	}
 	
 	
 	
-	@Test(priority = 3, groups = {"smoke_test", "full_test"})
+	@Test(priority = 3)
 	public void user_capabilities_entel() throws IOException {
+		
+		//REPORT
+		String test_name = "user_capabilities_entel";
+		te_report = report.startTest(test_name);
 	
+		
 		//VALUES
 		String props = "../API_demo/URI.properties";
 		String urikeyname = "Entel_capabilities";
@@ -118,22 +141,25 @@ public class Entel_scripts {
         Response response = http.getAlltMethod(urikeyname, headers);
         
         
-		//REPORT
-		String test_name = "capabilities_entel";
+		//VALIDATION.
 		validation val = new validation();
-		String res = val.get_validation(test_name, expectedData, prop, response, urikeyname, expectedCode, jsonPathToValidate, headers);    
+		String res = val.get_validation(te_report, test_name, expectedData, prop, response, urikeyname, expectedCode, jsonPathToValidate, headers);    
 	}
 	
 	
 	
-	@Test(priority = 4, groups = {"full_test"})
+	@Test(priority = 4)
 	public void programes_entel() throws IOException {
+		
+		//REPORT
+		String test_name = "programes_entel";
+		te_report = report.startTest(test_name);
 		
 		//VALUES
 		String props = "../API_demo/URI.properties";
 		String urikeyname = "Entel_programes";
 		Integer expectedCode = 200;
-		String expectedData = "GLOBAL_71302_20241026090000";
+		String expectedData = "GLOBAL_10241_20241106122800";
 		String jsonPathToValidate = "programmes.id";
 		
 			
@@ -154,11 +180,26 @@ public class Entel_scripts {
         Response response = http.getAlltMethod(urikeyname, headers);
 
         
-		//REPORT.
-		String test_name = "programes_entel";
+        //VALIDATION.
 		validation val = new validation();
-		String res = val.get_validation(test_name, expectedData, prop, response, urikeyname, expectedCode, jsonPathToValidate, headers);    
+		String res = val.get_validation(te_report, test_name, expectedData, prop, response, urikeyname, expectedCode, jsonPathToValidate, headers);    
 	
 	}
+	
+	
+	@AfterMethod
+    public void afterMethod(ITestResult result) {
+        long duration = result.getEndMillis() - result.getStartMillis();
+        te_report.log(LogStatus.INFO,"Execution time: " + duration + " milliseconds");
+    }
+	
+	 @AfterSuite
+	 public void tearDown() {
+		report.endTest(te_report);
+		report.flush();
+	 }
+	
+	
+	
 	
 }

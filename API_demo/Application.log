@@ -1,14 +1,115 @@
-2024-10-22 11:57:37  [token_entel] (main:) status code is matching
-2024-10-22 12:04:34  [token_entel] (main:) status code is matching
-2024-10-22 12:04:35  [services_entel] (main:) status code is matching
-2024-10-22 12:04:36  [services_entel] (main:) Data is matching
-2024-10-22 12:04:36  [capabilities_entel] (main:) status code is matching
-2024-10-22 12:04:36  [capabilities_entel] (main:) Data is matching
-2024-10-22 12:04:42  [programes_entel] (main:) status code is matching
-2024-10-22 12:04:43  [programes_entel] (main:) Data is matching
-2024-10-22 12:15:50  [token_entel] (main:) status code is matching
-2024-10-22 12:15:52  [services_entel] (main:) status code is matching
-2024-10-22 12:15:54  [services_entel] (main:) Data is matching
-2024-10-29 10:29:48  [token_entel] (main:) status code is matching
-2024-10-29 10:29:49  [services_entel] (main:) status code is matching
-2024-10-29 10:29:51  [services_entel] (main:) Data is matching
+2024-10-30 10:56:23  [services_entel] (main:) status code is matching
+2024-10-30 10:57:51  [services_entel] (main:) status code is matching
+2024-10-30 10:58:58  [services_entel] (main:) status code is matching
+2024-10-30 11:08:26  [services_entel] (main:) status code is matching
+2024-10-30 11:09:29  [services_entel] (main:) status code is matching
+2024-10-30 11:21:20  [services_entel] (main:) status code is matching
+2024-10-30 11:21:21  [services_entel] (main:) Data is matching
+2024-10-30 11:34:01  [services_entel] (main:) status code is matching
+2024-10-30 11:53:14  [services_entel] (main:) status code is matching
+2024-10-30 11:53:14  [services_entel] (main:) Data is NOT matching
+2024-10-30 17:10:45  [services_entel] (main:) status code is matching
+2024-10-30 17:10:46  [services_entel] (main:) Data is NOT matching
+2024-10-30 17:23:03  [services_entel] (main:) status code is matching
+2024-10-30 17:24:38  [services_entel] (main:) status code is matching
+2024-10-30 17:32:58  [services_entel] (main:) status code is matching
+2024-10-30 17:32:58  [services_entel] (main:) Data is NOT matching
+2024-10-30 17:43:09  [services_entel] (main:) status code is matching
+2024-10-30 17:43:10  [services_entel] (main:) Data is NOT matching
+2024-10-30 18:04:30  [services_entel] (main:) status code is matching
+2024-10-30 18:04:30  [services_entel] (main:) Data is NOT matching
+2024-10-30 18:05:14  [services_entel] (main:) status code is matching
+2024-10-30 18:05:15  [services_entel] (main:) Data is matching
+2024-10-30 18:06:14  [services_entel] (main:) status code is matching
+2024-10-30 18:06:14  [services_entel] (main:) Data is NOT matching
+2024-10-30 18:07:00  [services_entel] (main:) status code is matching
+2024-10-30 18:07:01  [services_entel] (main:) Data is NOT matching
+2024-10-30 18:56:33  [services_entel] (main:) status code is matching
+2024-10-30 18:56:34  [services_entel] (main:) Data is matching
+2024-10-30 18:58:36  [services_entel] (main:) status code is matching
+2024-10-30 18:58:36  [services_entel] (main:) Data is matching
+2024-10-30 19:01:31  [services_entel] (main:) status code is matching
+2024-10-30 19:01:32  [services_entel] (main:) Data is matching
+2024-10-30 19:08:46  [services_entel] (main:) status code is matching
+2024-10-30 19:08:47  [services_entel] (main:) Data is matching
+2024-10-30 19:17:11  [services_entel] (main:) status code is matching
+2024-10-30 19:17:11  [services_entel] (main:) Data is matching
+2024-10-30 19:18:15  [programes_entel] (main:) status code is matching
+2024-10-30 19:18:16  [programes_entel] (main:) Data is NOT matching
+2024-10-30 19:18:17  [services_entel] (main:) status code is matching
+2024-10-30 19:18:17  [services_entel] (main:) Data is matching
+2024-10-30 19:18:17  [token_entel] (main:) status code is matching
+2024-10-30 19:18:18  [capabilities_entel] (main:) status code is matching
+2024-10-30 19:18:18  [capabilities_entel] (main:) Data is matching
+2024-10-30 19:22:31  [programes_entel] (main:) status code is matching
+2024-10-30 19:22:32  [programes_entel] (main:) Data is NOT matching
+2024-10-30 19:22:33  [services_entel] (main:) status code is matching
+2024-10-30 19:22:33  [services_entel] (main:) Data is matching
+2024-10-30 19:22:33  [token_entel] (main:) status code is matching
+2024-10-30 19:22:34  [capabilities_entel] (main:) status code is matching
+2024-10-30 19:22:34  [capabilities_entel] (main:) Data is matching
+2024-10-30 19:23:39  [token_entel] (main:) status code is matching
+2024-10-30 19:23:40  [services_entel] (main:) status code is matching
+2024-10-30 19:23:41  [services_entel] (main:) Data is matching
+2024-10-30 19:23:41  [capabilities_entel] (main:) status code is matching
+2024-10-30 19:23:41  [capabilities_entel] (main:) Data is matching
+2024-10-30 19:23:42  [programes_entel] (main:) status code is matching
+2024-10-30 19:23:42  [programes_entel] (main:) Data is NOT matching
+2024-10-30 20:02:12  [services_entel] (main:) status code is matching
+2024-10-30 20:02:13  [services_entel] (main:) Data is matching
+2024-10-30 20:26:07  [services_entel] (main:) status code is matching
+2024-10-30 20:26:08  [services_entel] (main:) Data is matching
+2024-10-30 20:37:44  [token_entel] (main:) status code is matching
+2024-10-30 20:37:44  [services_entel] (main:) status code is matching
+2024-10-30 20:37:45  [services_entel] (main:) Data is matching
+2024-10-30 20:37:46  [user_capabilities_entel] (main:) status code is matching
+2024-10-30 20:37:46  [user_capabilities_entel] (main:) Data is matching
+2024-10-30 20:37:52  [programes_entel] (main:) status code is matching
+2024-10-30 20:37:53  [programes_entel] (main:) Data is NOT matching
+2024-10-30 20:43:02  [token_entel] (main:) status code is matching
+2024-10-30 20:43:02  [services_entel] (main:) status code is matching
+2024-10-30 20:43:03  [services_entel] (main:) Data is matching
+2024-10-30 20:43:03  [user_capabilities_entel] (main:) status code is matching
+2024-10-30 20:43:03  [user_capabilities_entel] (main:) Data is matching
+2024-10-30 20:43:10  [programes_entel] (main:) status code is matching
+2024-10-30 20:43:10  [programes_entel] (main:) Data is NOT matching
+2024-10-30 20:47:16  [token_entel] (main:) status code is matching
+2024-10-30 20:47:16  [services_entel] (main:) status code is matching
+2024-10-30 20:47:17  [services_entel] (main:) Data is matching
+2024-10-30 20:47:17  [user_capabilities_entel] (main:) status code is matching
+2024-10-30 20:47:17  [user_capabilities_entel] (main:) Data is matching
+2024-10-30 20:47:23  [programes_entel] (main:) status code is matching
+2024-10-30 20:47:23  [programes_entel] (main:) Data is NOT matching
+2024-11-11 11:21:57  [services_entel] (main:) status code is matching
+2024-11-11 11:21:57  [services_entel] (main:) Data is matching
+2024-11-11 11:21:58  [user_capabilities_entel] (main:) status code is matching
+2024-11-11 11:21:58  [user_capabilities_entel] (main:) Data is matching
+2024-11-11 11:22:05  [programes_entel] (main:) status code is matching
+2024-11-11 11:22:06  [programes_entel] (main:) Data is NOT matching
+2024-11-11 11:35:57  [token_entel] (main:) status code is matching
+2024-11-11 11:35:58  [user_capabilities_entel] (main:) status code is matching
+2024-11-11 11:35:58  [user_capabilities_entel] (main:) Data is matching
+2024-11-11 11:39:21  [user_capabilities_entel] (main:) status code is NOT matching
+2024-11-11 11:39:27  [programes_entel] (main:) status code is matching
+2024-11-11 11:39:28  [programes_entel] (main:) Data is NOT matching
+2024-11-11 11:41:31  [user_capabilities_entel] (main:) status code is matching
+2024-11-11 11:41:31  [user_capabilities_entel] (main:) Data is matching
+2024-11-11 11:41:33  [programes_entel] (main:) status code is matching
+2024-11-11 11:41:33  [programes_entel] (main:) Data is NOT matching
+2024-11-11 11:43:23  [services_entel] (main:) status code is matching
+2024-11-11 11:43:23  [services_entel] (main:) Data is NOT matching
+2024-11-12 16:42:34  [services_entel] (main:) status code is matching
+2024-11-12 16:42:35  [services_entel] (main:) Data is matching
+2024-11-13 08:49:06  [services_entel] (main:) status code is matching
+2024-11-13 08:49:07  [services_entel] (main:) Data is matching
+2024-11-13 10:08:33  [services_entel] (main:) status code is matching
+2024-11-13 10:08:34  [services_entel] (main:) Data is matching
+2024-11-13 10:45:10  [token_entel] (main:) status code is matching
+2024-11-13 10:45:11  [services_entel] (main:) status code is matching
+2024-11-13 10:45:12  [services_entel] (main:) Data is matching
+2024-11-13 10:45:13  [user_capabilities_entel] (main:) status code is matching
+2024-11-13 10:45:13  [user_capabilities_entel] (main:) Data is matching
+2024-11-13 10:45:22  [programes_entel] (main:) status code is matching
+2024-11-13 10:45:22  [programes_entel] (main:) Data is NOT matching
+2024-11-13 10:50:18  [services_entel] (main:) status code is matching
+2024-11-13 10:50:18  [services_entel] (main:) Data is NOT matching

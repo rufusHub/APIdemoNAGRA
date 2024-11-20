@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.nagra.testScripts.get_user_capabilities">
+      <class name="org.nagra.testScripts.Entel_scripts">
         <methods>
-          <include name="user_capabilities_entel"/>
+          <include name="services_entel"/>
         </methods>
-      </class> <!-- org.nagra.testScripts.get_user_capabilities -->
+      </class> <!-- org.nagra.testScripts.Entel_scripts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
