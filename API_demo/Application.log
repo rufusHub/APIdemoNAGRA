@@ -113,3 +113,33 @@
 2024-11-13 10:45:22  [programes_entel] (main:) Data is NOT matching
 2024-11-13 10:50:18  [services_entel] (main:) status code is matching
 2024-11-13 10:50:18  [services_entel] (main:) Data is NOT matching
+2024-11-20 11:41:53  [token_entel] (main:) status code is matching
+2024-11-20 11:41:53  [ias__refresh_token] (main:) status code is matching
+2024-11-20 11:43:46  [ias__refresh_token] (main:) status code is matching
+2024-11-20 11:45:33  [ias__refresh_token] (main:) status code is matching
+2024-11-20 16:58:32  [services] (main:) status code is matching
+2024-11-20 16:58:32  [services] (main:) Data is NOT matching
+2024-11-20 17:52:58  [services] (main:) status code is matching
+2024-11-20 17:52:58  [services] (main:) Data is matching
+2024-11-20 18:01:48  [services] (main:) status code is matching
+2024-11-20 18:01:48  [services] (main:) Data is NOT matching
+2024-11-20 18:02:20  [services] (main:) status code is matching
+2024-11-20 18:02:21  [services] (main:) Data is matching
+2024-11-20 18:07:33  [services] (main:) status code is matching
+2024-11-20 18:07:33  [services] (main:) Data is NOT matching
+2024-11-20 18:08:14  [services] (main:) status code is matching
+2024-11-20 18:08:14  [services] (main:) Data is NOT matching
+2024-11-20 18:11:49  [services] (main:) status code is matching
+2024-11-20 18:11:49  [services] (main:) Data is NOT matching
+2024-11-20 18:16:57  [services] (main:) status code is matching
+2024-11-20 18:16:57  [services] (main:) Data is NOT matching
+2024-11-20 18:19:17  [services] (main:) status code is matching
+2024-11-20 18:19:17  [services] (main:) Data is NOT matching
+2024-11-20 18:19:37  [services] (main:) status code is matching
+2024-11-20 18:19:38  [services] (main:) Data is matching
+2024-11-20 18:22:29  [services] (main:) status code is matching
+2024-11-20 18:22:29  [services] (main:) Data is NOT matching
+2024-11-20 18:30:16  [services] (main:) status code is matching
+2024-11-20 18:30:17  [services] (main:) Data is matching
+2024-11-20 18:35:19  [services] (main:) status code is matching
+2024-11-20 18:35:20  [services] (main:) Data is matching

@@ -42,6 +42,35 @@ public class validation {
 	}
 	
 	
+	public void post_validation(ExtentTest te_report, String test_name, Properties prop, String urikeyname, Map<String, String> headers,
+            					Integer expectedCode, Response response ) {
+
+
+		String report_ms1 = test_name + " test is getting PASSED";
+		String report_ms2 = test_name +	" test is getting FAILED";	
+		
+		//Validation
+		// Logging request details
+		te_report.log(LogStatus.INFO, "Request URI: " + prop.getProperty(urikeyname));
+		te_report.log(LogStatus.INFO, "Request Headers: " + headers.toString());
+		
+		Object result_status = validateResponse.statusCodeVAlidate(expectedCode, response, test_name );
+		
+		if(result_status.equals(true)) {
+		te_report.log(LogStatus.PASS, "Response Code: " + response.getStatusCode());
+		te_report.log(LogStatus.PASS, "Response Body: " + response.getBody().asString());
+		te_report.log(LogStatus.PASS, report_ms1);	
+		}
+		
+		else {
+		te_report.log(LogStatus.FAIL, "Response Code: " + response.getStatusCode());
+		te_report.log(LogStatus.FAIL, "Response Body: " + response.getBody().asString());
+		te_report.log(LogStatus.FAIL, report_ms2);
+		}
+		
+	}
+	
+	
 	
 	public String get_validation(ExtentTest te_report, String test_name, String expectedData, Properties prop, Response response, String urikeyname,
             Integer expectedCode, String jsonPathToValidate, Map<String, String> headers) {

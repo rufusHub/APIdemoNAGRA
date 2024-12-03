@@ -34,6 +34,21 @@ public class HTTPMethods {
 		return res;
 	}
 	
+	public Response postMethod(String uriKeyName, Map<String, String> headers) {
+		
+		String uriValue = pr.getProperty(uriKeyName);
+		Response res =
+		given()
+		.headers(headers)
+		.log().all()
+		.when()
+		.post(uriValue);
+		
+		System.out.println("'postMethod' Status code is " + res.statusCode());
+		System.out.println("token is: "+res.asString());
+		return res;
+	}
+	
 	public Response getAlltMethod(String uriKeyName, Map<String, String> headers) {
 		String uriValue = pr.getProperty(uriKeyName);
 		Response res =

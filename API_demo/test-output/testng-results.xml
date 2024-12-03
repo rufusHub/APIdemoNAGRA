@@ -2,31 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-13T10:50:15 COT" name="Suite" finished-at="2024-11-13T10:50:18 COT" duration-ms="3541">
+  <suite started-at="2024-11-20T18:35:16 COT" name="Default suite" finished-at="2024-11-20T18:35:20 COT" duration-ms="3193">
     <groups>
     </groups>
-    <test started-at="2024-11-13T10:50:15 COT" name="Default XmlTest name f64f33c5-9ebe-48ef-8008-37197b034421" finished-at="2024-11-13T10:50:18 COT" duration-ms="3541">
-      <class name="org.nagra.testScripts.Entel_scripts">
-        <test-method signature="services_entel()[pri:2, instance:org.nagra.testScripts.Entel_scripts@2d66530f]" started-at="2024-11-13T10:50:15 COT" name="services_entel" finished-at="2024-11-13T10:50:18 COT" duration-ms="3482" status="PASS">
+    <test started-at="2024-11-20T18:35:16 COT" name="Default test" finished-at="2024-11-20T18:35:20 COT" duration-ms="3193">
+      <class name="org.nagra.testScripts.Entel_scripts_2">
+        <test-method signature="services()[pri:3, instance:org.nagra.testScripts.Entel_scripts_2@1804f60d]" started-at="2024-11-20T18:35:17 COT" name="services" finished-at="2024-11-20T18:35:20 COT" duration-ms="3157" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- services_entel -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.nagra.testScripts.Entel_scripts@2d66530f]" started-at="2024-11-13T10:50:18 COT" name="afterMethod" finished-at="2024-11-13T10:50:18 COT" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=services_entel status=SUCCESS method=Entel_scripts.services_entel()[pri:2, instance:org.nagra.testScripts.Entel_scripts@2d66530f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.nagra.testScripts.Entel_scripts@2d66530f]" started-at="2024-11-13T10:50:18 COT" name="tearDown" finished-at="2024-11-13T10:50:19 COT" duration-ms="212" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- org.nagra.testScripts.Entel_scripts -->
-    </test> <!-- Default XmlTest name f64f33c5-9ebe-48ef-8008-37197b034421 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- services -->
+      </class> <!-- org.nagra.testScripts.Entel_scripts_2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

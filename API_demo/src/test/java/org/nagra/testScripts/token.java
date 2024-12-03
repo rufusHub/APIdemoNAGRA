@@ -42,7 +42,6 @@ public class token {
 		        
 				ObjectMapper objectMapper = new ObjectMapper();
 				JsonNode jsonNode = objectMapper.readTree(response.asString());
-				//accessTokenEntel = jsonNode.get("access_token").asText();
 				String accessTokenEntel = jsonNode.get("access_token").asText();
 				System.out.println(accessTokenEntel);
 				
