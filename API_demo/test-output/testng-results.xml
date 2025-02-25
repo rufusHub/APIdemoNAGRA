@@ -2,16 +2,22 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-20T18:35:16 COT" name="Default suite" finished-at="2024-11-20T18:35:20 COT" duration-ms="3193">
+  <suite started-at="2024-12-23T12:39:30 COT" name="Default suite" finished-at="2024-12-23T12:39:33 COT" duration-ms="2531">
     <groups>
+      <group name="full_test">
+        <method signature="retrieve_token.token_entel()[pri:1, instance:org.nagra.testScripts.retrieve_token@27953a83]" name="token_entel" class="org.nagra.testScripts.retrieve_token"/>
+      </group> <!-- full_test -->
+      <group name="smoke_test">
+        <method signature="retrieve_token.token_entel()[pri:1, instance:org.nagra.testScripts.retrieve_token@27953a83]" name="token_entel" class="org.nagra.testScripts.retrieve_token"/>
+      </group> <!-- smoke_test -->
     </groups>
-    <test started-at="2024-11-20T18:35:16 COT" name="Default test" finished-at="2024-11-20T18:35:20 COT" duration-ms="3193">
-      <class name="org.nagra.testScripts.Entel_scripts_2">
-        <test-method signature="services()[pri:3, instance:org.nagra.testScripts.Entel_scripts_2@1804f60d]" started-at="2024-11-20T18:35:17 COT" name="services" finished-at="2024-11-20T18:35:20 COT" duration-ms="3157" status="PASS">
+    <test started-at="2024-12-23T12:39:30 COT" name="Default test" finished-at="2024-12-23T12:39:33 COT" duration-ms="2531">
+      <class name="org.nagra.testScripts.retrieve_token">
+        <test-method signature="token_entel()[pri:1, instance:org.nagra.testScripts.retrieve_token@27953a83]" started-at="2024-12-23T12:39:30 COT" name="token_entel" finished-at="2024-12-23T12:39:33 COT" duration-ms="2495" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- services -->
-      </class> <!-- org.nagra.testScripts.Entel_scripts_2 -->
+        </test-method> <!-- token_entel -->
+      </class> <!-- org.nagra.testScripts.retrieve_token -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
